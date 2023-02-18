@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxWidth="340.0" prefHeight="200.0" prefWidth="326.0" styleClass="parking" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="307.0" layoutX="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/parking.png" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="parkingName" layoutX="58.0" layoutY="200.0" prefHeight="46.0" prefWidth="311.0" style="-fx-alignment: center;" text="Thanh Nhan" />
+   </children>
+</AnchorPane>

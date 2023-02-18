@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxWidth="340.0" prefHeight="200.0" prefWidth="326.0" styleClass="bike" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Hyperlink fx:id="bikeName" layoutX="37.0" layoutY="226.0" prefHeight="46.0" prefWidth="331.0" style="-fx-alignment: center;" text="Xe dap don thuong" />
+      <Pane fx:id="bikeImg" layoutX="43.0" layoutY="14.0" prefHeight="200.0" prefWidth="255.0" styleClass="bikeImg" />
+      <Label fx:id="barcode" layoutX="26.0" layoutY="272.0" prefHeight="34.0" prefWidth="345.0" styleClass="barCode" text="#97468312" />
+   </children>
+</AnchorPane>
